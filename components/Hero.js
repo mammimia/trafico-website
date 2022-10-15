@@ -7,12 +7,12 @@ import { CgArrowLongRight } from "react-icons/cg";
 const Hero = ({ heroData, headerData, navData }) => {
   const { title, sceneImg, boyImg, girlImg, truckImg, btnText } = heroData;
   return (
-    <section className="bg-hero bg-no-repeat bg-left-top min-h-800px lg-min-h-[950px] lg:mb-80">
+    <section className="bg-hero bg-no-repeat bg-left-top min-h-[800px] lg-min-h-[950px] lg:mb-80">
       <motion.div
         variants={staggerContainer}
         initial="initial"
         animate="animate"
-        className="container mx-auto min-h-[800px] lg:min-h-[950px]"
+        className="container mx-auto relative min-h-[800px] lg:min-h-[950px]"
       >
         <motion.div variants={fadeInDown}>
           <Header headerData={headerData} navData={navData} />
