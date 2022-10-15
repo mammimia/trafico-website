@@ -20,7 +20,6 @@ const Home = ({ headerData, heroData, navData, faqData, aboutData, howData, test
       <Testimonials testimonialData={testimonialData} />
       <Footer footerData={footerData} />
       <Copyright />
-      <div className="h-[2000px]"></div>
     </div>
   );
 };
