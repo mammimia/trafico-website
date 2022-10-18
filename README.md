@@ -22,8 +22,6 @@ To install this project follow the steps after cloning.
   npm install
 ```
 
-Remove basePath from next.config .js
-
 Then to start app
 
 ```bash
