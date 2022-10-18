@@ -6,7 +6,7 @@ import Faq from "../components/Faq";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
-import { headerData, heroData, navData, faqData, aboutData, howData, testimonialData, footerData } from "../data.json";
+import { headerData, heroData, navData, faqData, aboutData, howData, testimonialData, footerData } from "../data";
 
 // import data
 
