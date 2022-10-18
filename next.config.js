@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: !isDev ? "/trafico-website" : "",
+  basePath: "/trafico-website",
 };
 
 module.exports = nextConfig;
